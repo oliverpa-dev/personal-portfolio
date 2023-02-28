@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 
     - FONT SIZE SYSTEM (rem)
-    1.0 / 1.2 / 1.4 / 1.6 / 1.8 / 2.0 / 2.4 / 3.0 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+    1.0 / 1.2 / 1.4 / 1.6 / 1.8 / 2.0 / 2.4 / 3.0 / 3.2 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
 
     - Font weights:
     Default: 400
@@ -18,18 +18,17 @@
 
     --- 02 COLORS
 
-    - Primary:
+    - Primary: #1E1E1E #C86A5B
     - Tints:
     - Shadows:
     - Accents:
-    - Greys:
+    - Greys: #92817F
 
     --- 05 SHADOWS
     --- 06 BORDER-RADIUS
     --- 07 WHITESPACE
 
 */
-
 
 /* Global reset */
 * {
@@ -41,4 +40,58 @@
 /* 1rem = 10px not 16px */
 html {
     font-size: 62.5%;
+}
+
+.section-home {
+    align-items: center;
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #92817F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.home-message_heading {
+    font-size: 3.2rem;
+}
+
+.home-message_heading--one,
+.home-message_heading--two {
+    color: #C86A5B;
+    font-weight: 700;
+}
+
+.home-button:link,
+.home-button:visited {
+    border: 2px solid #C86A5B;
+    border-radius: 0.5rem;
+    color: #C86A5B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.home-button:link span,
+.home-button:visited span {
+    display: inline-block;
+}
+
+.home-button:link:hover span,
+.home-button:visited:hover span{
+    transform: rotate(90deg);
+    transition: all .2s ease-in-out;
 }
