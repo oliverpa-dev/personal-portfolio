@@ -1,0 +1,40 @@
+/*
+    --- 01 TYPOGRAPHY SYSTEM
+
+    - FONT SIZE SYSTEM (rem)
+    1.0 / 1.2 / 1.4 / 1.6 / 1.8 / 2.0 / 2.4 / 3.0 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
+
+    - Font weights:
+
+    - Font heights:
+    Default: 1 
+
+    - SPACING SYSTEM (rem)
+    .2 / .4 / .8 / 1.2 / 1.6 / 2.4 / 3.2 / 4.8 / 6.4 / 8.0 / 9.6 / 12.8
+
+    --- 02 COLORS
+
+    - Primary:
+    - Tints:
+    - Shadows:
+    - Accents:
+    - Greys:
+
+    --- 05 SHADOWS
+    --- 06 BORDER-RADIUS
+    --- 07 WHITESPACE
+
+*/
+
+
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 10px not 16px */
+html {
+    font-size: 62.5%;
+}
