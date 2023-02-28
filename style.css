@@ -1,10 +1,14 @@
 /*
     --- 01 TYPOGRAPHY SYSTEM
+    - FONT FAMILY
+    font-family: 'Montserrat', sans-serif;
 
     - FONT SIZE SYSTEM (rem)
     1.0 / 1.2 / 1.4 / 1.6 / 1.8 / 2.0 / 2.4 / 3.0 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8
 
     - Font weights:
+    Default: 400
+    Bold: 700
 
     - Font heights:
     Default: 1 
