@@ -206,3 +206,28 @@ ul li a > span{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 /* ABOUT SECTION - END */
+
+/* EXPERIENCE SECTION - START */
+
+.section-experience {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-info {
+    max-width: 98rem;
+    color: #92817F;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.experience-info h1 > span {
+    font-weight: 400;
+    color: #C86A5B;
+}
+
+/* EXPERIENCE SECTION - END */
