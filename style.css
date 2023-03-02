@@ -296,3 +296,55 @@ ul li a > span{
     transition: transform .3s ease-in-out;
 }
 /* PROJECTS SECTION - END */
+
+/* CONTACT SECTION - START */
+
+.section-contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 54rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.contact-container > h1 {
+    color: #92817F;
+}
+
+.contact-container h1 > span {
+    font-weight: 400;
+    color: #C86A5B;
+}
+
+.contact-container > p {
+    color: #92817F;
+}
+
+.contact-container > a:link,
+.contact-container > a:visited {
+    display: inline-block;
+    font-family: 2rem;
+    color: #C86A5B;
+    font-weight: 400;
+    border: 2px solid #C86A5B;
+    align-self: center;
+    padding: 1.3rem 1.8rem;
+    border-radius: 9px;
+}
+
+.contact-container > a:link:hover,
+.contact-container > a:visited:hover {
+    color: #92817F;
+    border-color: #92817F;
+    transition: all .3s ease-in-out;
+}
+
+/* CONTACT SECTION - END */
