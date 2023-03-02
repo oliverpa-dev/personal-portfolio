@@ -348,3 +348,50 @@ ul li a > span{
 }
 
 /* CONTACT SECTION - END */
+
+/* FOOTER - START */
+footer {
+    width: 100%;
+}
+
+.footer-content {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 176rem;
+    gap: 1.5rem;
+}
+
+.footer-content_icons {
+    display: flex;
+    gap: 1.7rem;
+}
+
+.footer-content_icons > a:link,
+.footer-content_icons > a:visited {
+    border: 2px solid #92817F;
+    padding: 1rem 1.25rem;
+    border-radius: 50%;
+}
+
+.footer-content_icons > a:link:hover,
+.footer-content_icons > a:visited:hover {
+    color: #C86A5B;
+    border-color: #C86A5B;
+    transition: all .3s ease-in-out;
+}
+
+.footer-content > h1 {
+    color: #C86A5B;
+    font-size: 1.6rem;
+}
+
+.footer-content h1 > span {
+    color: #92817F;
+    font-weight: 400;
+}
+
+/* FOOTER - END */
