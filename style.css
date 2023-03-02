@@ -176,11 +176,13 @@ ul li a > span{
 .section-about {
     width: 100%;
     height: 100vh;
+    display: flex;
 }
 
 .about-hero {
     max-width: 98rem;
-    margin:  26rem auto 0 auto;
+    /* margin:  26rem auto 0 auto; */
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -218,7 +220,7 @@ ul li a > span{
 }
 
 .experience-info {
-    max-width: 98rem;
+    max-width: 54rem;
     color: #92817F;
     display: flex;
     flex-direction: column;
@@ -231,3 +233,66 @@ ul li a > span{
 }
 
 /* EXPERIENCE SECTION - END */
+
+/* PROJECTS SECTION - START */
+.section-projects {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.projects-container {
+    width: 75.7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #92817F;
+}
+
+.projects-container > h1 {
+    margin-bottom: 3rem;
+}
+
+.projects-container h1 > span {
+    font-weight: 400;
+    color: #C86A5B;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat((2, 1fr));
+    gap: 2.5rem;
+}
+
+.projects {
+    background-color: #C86A5B;
+    border-radius: 5px;
+    padding: 1.7rem;
+    color: #1E1E1E;
+    box-shadow: 0px 0px 5px -1px rgba(146, 129, 127, 1);
+}
+
+.projects > span {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.projects > h1 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+}
+
+.projects > p {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.projects:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+}
+/* PROJECTS SECTION - END */
