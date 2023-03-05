@@ -2,6 +2,8 @@
 Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 41em) {
+    /* HOME SECTION - START */
+
     .home-message {
         font-size: 1.5em;
     }
@@ -15,4 +17,23 @@ Instead, 1ren = 1em = 16px*/
         padding: .5em 1em;
         font-size: 1em;
     }
+    /* HOME SECTION - END */
+
+    /* ABOUT SECTION - START */
+    .section-about {
+        margin-top: 17em;
+        padding: 0 1em;
+    }
+
+    .about-hero {
+        grid-template-rows: repeat(auto-fill, 1fr);
+       grid-template-columns: none;
+       gap: none;
+    }
+
+    .about-hero-img {
+        width: 75%;
+        justify-self: center;
+    }
+    /* ABOUT SECTION - END */
 }
