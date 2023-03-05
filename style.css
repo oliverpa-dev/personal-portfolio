@@ -269,6 +269,7 @@ ul li a > span{
 
 .projects-container > h1 {
     margin-bottom: 3rem;
+    align-self: flex-start;
 }
 
 .projects-container h1 > span {
