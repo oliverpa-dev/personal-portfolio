@@ -49,6 +49,7 @@ body {
     font-weight: 400;
     line-height: 1;
     background-color: #1E1E1E;
+    overflow-x: hidden;
 }
 
 /* HOME SECTION - START */
@@ -111,6 +112,11 @@ body {
 /* HEADER - START */
 header {
     width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.header-burger_menu {
+    display: none;
 }
 
 .sticky {
@@ -120,7 +126,6 @@ header {
     top: 0;
     width: 100%;
     background-color: rgba(30, 30, 30, 0.3);
-    backdrop-filter: blur(10px);
 }
 
 .header-wrapper {
