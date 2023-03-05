@@ -36,4 +36,21 @@ Instead, 1ren = 1em = 16px*/
         justify-self: center;
     }
     /* ABOUT SECTION - END */
+
+    /* EXPERIENCE SECTION - START */
+    .experience-info {
+        padding: 0 1em;
+    }
+    /* EXPERIENCE SECTION - END */
+
+    /* CONTACT SECTION - START */
+    .contact-container {
+        padding: 0 1em;
+    }
+
+    .contact-container > a:link,
+    .contact-container > a:visited {
+        font-size: 1em;
+    }
+    /* CONTACT SECTION - END */
 }
