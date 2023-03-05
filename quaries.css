@@ -1,0 +1,18 @@
+/* rem and em do not depend on html font size in media queries 
+Instead, 1ren = 1em = 16px*/
+
+@media only screen and (max-width: 41em) {
+    .home-message {
+        font-size: 1.5em;
+    }
+
+    .home-message_heading {
+        font-size: 1em;
+    }
+
+    .home-button:link,
+    .home-button:visited {
+        padding: .5em 1em;
+        font-size: 1em;
+    }
+}
