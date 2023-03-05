@@ -2,6 +2,76 @@
 Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 41em) {
+    /* HEADER - START */
+    header {
+        padding: 0 1em;
+        position: relative;
+        
+    }
+
+    .header-burger_menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        transition: all 5s ease-out;
+    }
+
+    .burger_menu--top {
+        width: 1.5em;
+        border: 1px solid #C86A5B;
+        transition: .1s ease-in all;
+    }
+    .burger_menu--mid {
+        width: 1.5em;
+        border: 1px solid #C86A5B;
+        transition: .1s ease-out all;
+    }
+    .burger_menu--bottom {
+        width: 1.5em;
+        border: 1px solid #C86A5B;
+        transition: .1s ease-in all;
+    }
+
+    .bottom-remove {
+        display: none;
+    }
+
+    .top-rotate {
+        transform: rotate(45deg) translateX(5px) translateY(-0.1px);
+    }
+
+    .mid-rotate {
+        transform: rotate(-45deg) translateX(5px);
+    }
+
+    nav {
+        display: flex;
+        transition: .3s ease-in all;
+        z-index: -1;
+        position: absolute;
+        top: 5em;
+        right: -15em;
+        flex-direction: column;
+        gap: 2em;
+        background-color: rgba(30, 30, 30, 0.7);
+        padding: 1em;
+        border-bottom-left-radius: 9px;
+        border-left: 1px solid #C86A5B;
+        border-bottom: 1px solid #C86A5B;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .nav-slide_in {
+        right: 0;
+    }
+
+    /* HEADER - END */
+    
     /* HOME SECTION - START */
 
     .home-message {
