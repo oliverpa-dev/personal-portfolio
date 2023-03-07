@@ -1,24 +1,15 @@
 /* rem and em do not depend on html font size in media queries 
 Instead, 1ren = 1em = 16px*/
 
-@media only screen and (max-width: 62em) {
-    /* ABOUT HERO - START */
-    .about-hero {
-        gap: 3em;
+@media only screen and (max-width: 110em) {
+    header {
         padding: 0 1em;
     }
-    /* ABOUT HERO - END*/
-
-    /* PROJECTS - START */
-    .projects-container {
-        padding: 0 1em;
-    }
-    /* PROJECTS - END */
 }
 
-@media only screen and (max-width: 41em) {
+@media only screen and (max-width: 62em) {
     /* HEADER - START */
-    header {
+     header {
         padding: 0 1em;
         position: relative;
         
@@ -84,11 +75,24 @@ Instead, 1ren = 1em = 16px*/
     .nav-slide_in {
         right: 0;
     }
-
     /* HEADER - END */
-    
-    /* HOME SECTION - START */
 
+    /* ABOUT HERO - START */
+    .about-hero {
+        gap: 3em;
+        padding: 0 1em;
+    }
+    /* ABOUT HERO - END*/
+
+    /* PROJECTS - START */
+    .projects-container {
+        padding: 0 1em;
+    }
+    /* PROJECTS - END */
+}
+
+@media only screen and (max-width: 41em) {
+    /* HOME SECTION - START */
     .home-message {
         font-size: 1.5em;
     }
