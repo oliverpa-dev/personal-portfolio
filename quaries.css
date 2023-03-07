@@ -1,6 +1,21 @@
 /* rem and em do not depend on html font size in media queries 
 Instead, 1ren = 1em = 16px*/
 
+@media only screen and (max-width: 62em) {
+    /* ABOUT HERO - START */
+    .about-hero {
+        gap: 3em;
+        padding: 0 1em;
+    }
+    /* ABOUT HERO - END*/
+
+    /* PROJECTS - START */
+    .projects-container {
+        padding: 0 1em;
+    }
+    /* PROJECTS - END */
+}
+
 @media only screen and (max-width: 41em) {
     /* HEADER - START */
     header {
