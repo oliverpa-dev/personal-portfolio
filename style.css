@@ -97,14 +97,23 @@ body {
     text-decoration: none;
 }
 
+.home-button:link:hover,
+.home-button:visited:hover {
+    color: #92817F;
+    transition: all .2s ease-in-out;
+    border-color: #92817F;
+}
+
 .home-button:link span,
 .home-button:visited span {
     display: inline-block;
+    /* transform: rotate(90deg); */
 }
 
 .home-button:link:hover span,
 .home-button:visited:hover span{
-    transform: rotate(90deg);
+    color: #92817F;
+    transform: translateY(3px);
     transition: all .2s ease-in-out;
 }
 /* HOME SECTION - END */
