@@ -232,6 +232,11 @@ ul li a > span{
     border-radius: 9px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.about-hero-img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .3s;
+}
 /* ABOUT SECTION - END */
 
 /* EXPERIENCE SECTION - START */
