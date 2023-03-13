@@ -257,6 +257,7 @@ ul li a > span{
 }
 
 .about-hero-img {
+    opacity: 95%;
     width: 100%;
     border-radius: 9px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -461,7 +462,7 @@ footer {
 
 /* Animations - Start*/
 .animationAppear {
-    animation: appear .5s ease-in forwards;
+    animation: appear .3s ease-in forwards;
 }
 
 @keyframes appear {
