@@ -2,6 +2,10 @@
 Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 110em) {
+    body {
+        touch-action: none;
+    }
+
     header {
         padding: 0 1em;
     }
@@ -52,7 +56,9 @@ Instead, 1ren = 1em = 16px*/
     }
 
     nav {
+        touch-action: none;
         display: flex;
+        visibility: hidden;
         transition: .3s ease-in all;
         z-index: -1;
         position: absolute;
@@ -74,6 +80,7 @@ Instead, 1ren = 1em = 16px*/
 
     .nav-slide_in {
         right: 0;
+        visibility: visible;
     }
     /* HEADER - END */
 
