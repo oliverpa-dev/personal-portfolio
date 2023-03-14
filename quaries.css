@@ -2,6 +2,9 @@
 Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 110em) {
+    nav {
+        overflow: hidden;
+    }
     header {
         padding: 0 1em;
     }
