@@ -2,10 +2,6 @@
 Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 110em) {
-    body {
-        touch-action: none;
-    }
-
     header {
         padding: 0 1em;
     }
@@ -165,6 +161,6 @@ Instead, 1ren = 1em = 16px*/
 
 @media only screen and (max-width: 35em) {
     .home-message_heading {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 }
