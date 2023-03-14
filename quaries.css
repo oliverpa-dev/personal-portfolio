@@ -162,3 +162,9 @@ Instead, 1ren = 1em = 16px*/
     }
     /* CONTACT SECTION - END */
 }
+
+@media only screen and (max-width: 35em) {
+    .home-message_heading {
+        font-size: 0.7em;
+    }
+}
