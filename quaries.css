@@ -1,168 +1,11 @@
 /* rem and em do not depend on html font size in media queries 
 Instead, 1ren = 1em = 16px*/
 
-/* @media only screen and (max-width: 110em) {
-    body {
-        touch-action: none;
-    }
-
-    header {
-        padding: 0 1em;
-    }
-}  */
-
-/* @media only screen and (max-width: 62em) { */
-     /* header {
-        padding: 0 1em;
-        position: relative; */
-    /* } */
-
-    /* .header-burger_menu {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        cursor: pointer;
-        transition: all 5s ease-out;
-    }
-
-    .burger_menu--top {
-        width: 1.5em;
-        border: 1px solid #C86A5B;
-        transition: .1s ease-in all;
-    }
-    .burger_menu--mid {
-        width: 1.5em;
-        border: 1px solid #C86A5B;
-        transition: .1s ease-out all;
-    }
-    .burger_menu--bottom {
-        width: 1.5em;
-        border: 1px solid #C86A5B;
-        transition: .1s ease-in all;
-    }
-
-    .bottom-remove {
-        display: none;
-    }
-
-    .top-rotate {
-        transform: rotate(45deg) translateX(5px) translateY(-0.1px);
-    }
-
-    .mid-rotate {
-        transform: rotate(-45deg) translateX(5px);
-    } */
-
-    /* nav {
-        display: flex;
-        visibility: hidden;
-        transition: .3s ease-in all;
-        z-index: -1;
-        position: absolute;
-        top: 5em;
-        right: -15em;
-        flex-direction: column;
-        gap: 2em;
-        background-color: rgba(30, 30, 30, 0.7);
-        padding: 1em;
-        border-bottom-left-radius: 9px;
-        border-left: 1px solid #C86A5B;
-        border-bottom: 1px solid #C86A5B; */
-    /* } */
-
-    /* nav > ul {
-        flex-direction: column;
-        gap: 2em;
-    } */
-
-    /* .nav-slide_in {
-        right: 0;
-        visibility: visible;
-    } */
-    /* HEADER - END */
-
-    /* ABOUT HERO - START */
-    /* .about-hero {
-        gap: 3em;
-        padding: 0 1em;
-    } */
-    /* ABOUT HERO - END*/
-
-    /* PROJECTS - START */
-    /* .projects-container {
-        padding: 0 1em;
-    } */
-    /* PROJECTS - END */
-/* } */
-
-/* @media only screen and (max-width: 41em) { */
-    /* HOME SECTION - START */
-    /* .home-message {
-        font-size: 1.5em;
-    } */
-
-    /* .home-message_heading {
-        font-size: 0.9em;
-    } */
-
-    /* .home-button:link,
-    .home-button:visited {
-        padding: .5em 1em;
-        font-size: 1em;
-    } */
-    /* HOME SECTION - END */
-
-    /* ABOUT SECTION - START */
-    /* .section-about {
-        margin-top: 17em;
-        padding: 0 1em;
-    } */
-
-    /* .about-hero {
-        grid-template-rows: repeat(auto-fill, 1fr);
-       grid-template-columns: none;
-       gap: none;
-    } */
-
-    /* .about-hero-img {
-        width: 75%;
-        justify-self: center;
-    } */
-    /* ABOUT SECTION - END */
-
-    /* EXPERIENCE SECTION - START */
-    /* .experience-info {
-        padding: 0 1em;
-    } */
-    /* EXPERIENCE SECTION - END */
-
-    /* PROJECTS SECTION - START */
-    
-    /* .projects-container {
-        padding: 0 1em;
-    } */
-
-    /* .projects-grid {
-        grid-template-columns: none;
-        grid-template-rows: repeat(auto-fill, 1fr);
-    } */
-    /* PROJECTS SECTION - END */
-
-    /* CONTACT SECTION - START */
-    /* .contact-container {
-        padding: 0 1em;
-    } */
-
-    /* .contact-container > a:link,
-    .contact-container > a:visited {
-        font-size: 1em;
-    } */
-    /* CONTACT SECTION - END */
-/* } */
 
 /* MOBILE NAVIGATION */
 @media only screen and (max-width: 59em) {
     nav {
+        background-color: black;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -176,8 +19,6 @@ Instead, 1ren = 1em = 16px*/
         justify-content: center;
         flex-direction: column;
         gap: 4.8rem;
-        z-index: -1;
-
         opacity: 0;
         pointer-events: none;
         visibility: hidden;
@@ -211,5 +52,6 @@ Instead, 1ren = 1em = 16px*/
     
     .btn-mobile-nav {
         display: block;
+        z-index: 999;
     }
 }

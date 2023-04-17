@@ -109,7 +109,6 @@ body {
 .home-button:link span,
 .home-button:visited span {
     display: inline-block;
-    /* transform: rotate(90deg); */
 }
 
 .home-button:link:hover span,
@@ -118,43 +117,13 @@ body {
     transform: translateY(3px);
     transition: all .2s ease-in-out;
 }
-
-@keyframes slideUp {
-    0% {
-        opacity: 0%;
-        transform: translateY(-8px);
-    }
-
-    25% {
-        opacity: 25%;
-        transform: translateY(-6px);
-    }
-
-    50% {
-        opacity: 50%;
-        transform: translateY(-4x);
-    }
-
-    75% {
-        opacity: 75%;
-        transform: translateY(-2px);
-    }
-
-    100% {
-        opacity: 100%;
-        transform: translateY(0px);
-    }
-}
 /* HOME SECTION - END */
 
 /* HEADER - START */
 header {
     width: 100%;
     backdrop-filter: blur(10px);
-}
-
-.header-burger_menu {
-    display: none;
+    padding: 1rem;
 }
 
 .sticky {
@@ -167,7 +136,6 @@ header {
 }
 
 .header-wrapper {
-    /* padding: 3rem 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -249,7 +217,6 @@ ul li a > span{
     width: 100%;
     height: 100vh;
     display: flex;
-    opacity: 0%;
 }
 
 .about-hero {
@@ -276,7 +243,6 @@ ul li a > span{
 }
 
 .about-hero-img {
-    opacity: 95%;
     width: 100%;
     border-radius: 9px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -296,7 +262,6 @@ ul li a > span{
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0%;
 }
 
 .experience-info {
@@ -319,7 +284,6 @@ ul li a > span{
     width: 100%;
     height: 100vh;
     display: flex;
-    opacity: 0%;
 }
 
 .projects-container {
@@ -385,7 +349,6 @@ ul li a > span{
     width: 100%;
     height: 100vh;
     display: flex;
-    opacity: 0%;
 }
 
 .contact-container {
@@ -476,33 +439,4 @@ footer {
     color: #92817F;
     font-weight: 400;
 }
-
 /* FOOTER - END */
-
-/* Animations - Start*/
-.animationAppear {
-    animation: appear .3s ease-in forwards;
-}
-
-@keyframes appear {
-    0% {
-        opacity: 0%;
-    }
-
-    25% {
-        opacity: 25%;
-    }
-
-    50% {
-        opacity: 50%;
-    }
-
-    75% {
-        opacity: 75%;
-    }
-
-    100% {
-        opacity: 100%;
-    }
-}
-/* Animations - End */
