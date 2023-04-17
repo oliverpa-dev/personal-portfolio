@@ -1,7 +1,11 @@
 /* rem and em do not depend on html font size in media queries 
 Instead, 1ren = 1em = 16px*/
 
-/* @media only screen and (max-width: 110em) {
+@media only screen and (max-width: 110em) {
+    body {
+        touch-action: none;
+    }
+
     header {
         padding: 0 1em;
     }
@@ -154,4 +158,4 @@ Instead, 1ren = 1em = 16px*/
         font-size: 1em;
     } */
     /* CONTACT SECTION - END */
-/* } */
+}
