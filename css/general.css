@@ -61,6 +61,18 @@ body {
     padding: 0 2rem;
 }
 
+.margin-bottom {
+    margin-bottom: 3rem;
+}
+
+.outlined-button {
+    border: 2px solid #C86A5B;
+    border-radius: 0.9rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
 .full-screen {
     width: 100%;
     height: 100vh;
