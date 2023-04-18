@@ -180,6 +180,7 @@ ul li a > span{
     width: 100%;
     border-radius: 9px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
 }
 
 .about-hero-img:hover {
