@@ -21,7 +21,6 @@ Instead, 1ren = 1em = 16px*/
 /* MOBILE NAVIGATION */
 @media only screen and (max-width: 59em) {
     nav {
-        background-color: black;
         position: absolute;
         top: 0;
         bottom: 0;

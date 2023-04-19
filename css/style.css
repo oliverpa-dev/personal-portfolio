@@ -62,18 +62,10 @@
 /**************************/
 header {
     width: 100%;
-    backdrop-filter: blur(10px);
     padding: 1rem 2rem;
+    position: relative;
 }
 
-.sticky {
-    z-index: 100;
-    transition: all .3s ease-in-out;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: rgba(30, 30, 30, 0.3);
-}
 
 .header-wrapper {
     display: flex;
@@ -87,10 +79,21 @@ header {
 }
 
 nav {
+    /* background-color: rgba(30, 30, 30, 0.3); */
     z-index: 1;
     display: flex;
     align-items: center;
     gap: 2.5rem;
+}
+
+.glass {
+    transition: all .5s;
+    backdrop-filter: blur(10px);
+}
+
+.glass-second {
+    transition: all 2s;
+    backdrop-filter: blur(10px);
 }
 
 ul {
@@ -114,6 +117,20 @@ ul li, a:visited:hover {
 
 ul li a > span{
     color: #C86A5B;
+}
+
+/* Sticky navigation */
+.sticky .header {
+    z-index: 100;
+    transition: all .1s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.sticky .section-about {
+    margin-top: 6rem;
 }
 
 /* Mobile */

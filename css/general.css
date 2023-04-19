@@ -52,6 +52,10 @@ body {
     overflow-x: hidden;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
