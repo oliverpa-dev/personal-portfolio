@@ -4,7 +4,7 @@ const headerEl = document.querySelector('.header');
 const btnEl = document.querySelector('.btn-mobile-nav');
 const navEl = document.getElementById('nav');
 
-// Glassmorphism animation
+// Glass morphism animation
 btnEl.addEventListener('click', () => {
     headerEl.classList.toggle('nav-open');
     if (headerEl.classList.contains('nav-open')) {
@@ -16,12 +16,12 @@ btnEl.addEventListener('click', () => {
     navEl.classList.toggle('glass');
 });
 
-// Sticky navigation
+// Sticky navigation and nav's link indicator
+// Highlights link once the certain section gets into the view
 const sectionHomeMessage = document.querySelector('.section-home');
 const obs = new IntersectionObserver(
     function (entries) {
         const ent = entries[0];
-        console.log(ent);
         if (!ent.isIntersecting) {
             document.body.classList.add('sticky');
         } else {
@@ -42,6 +42,7 @@ allLinks.forEach(function (link) {
         if (link.classList.contains('close-nav')) {
             headerEl.classList.toggle('nav-open');
             headerEl.classList.toggle('glass');
+            navEl.classList.toggle('glass');
         }
     });
 });
