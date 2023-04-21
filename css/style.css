@@ -88,6 +88,7 @@ nav {
 .glass {
     transition: all .5s;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .glass-second {
