@@ -47,10 +47,7 @@ allLinks.forEach(function (link) {
     });
 });
 
-// // Projects hover animation
-// const projectsEl = document.querySelectorAll('.projects');
-// projectsEl.forEach((element) => {
-//     element.addEventListener('mouseout', () => {
-//         element.classList.add('projects-animation-out');
-//     })
-// })
+// Set current year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
