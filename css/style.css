@@ -56,6 +56,11 @@
     transition: all .2s ease-in-out;
 }
 
+.move-back {
+    transform: translateY(0);
+    transition: all .2s ease-in-out;
+}
+
 
 /**************************/
 /* HEADER */
@@ -217,14 +222,9 @@ ul li a > span{
     border-radius: 9px;
 }
 
-.figure {
-    border-radius: 9px;
-    overflow: hidden;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 .about-hero-img:hover {
-    transform: scale(1.1);
+    cursor: pointer;
+    transform: scale(1.05);
     transition: all ease-in-out .3s;
 }
 
@@ -305,8 +305,8 @@ ul li a > span{
 
 .projects:hover {
     cursor: pointer;
-    transform: scale(1.05);
     transition: transform .3s ease-in-out;
+    transform: scale(1.05);
 }
 
 /**************************/

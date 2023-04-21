@@ -52,10 +52,6 @@ body {
     overflow-x: hidden;
 }
 
-.overflow {
-    overflow: hidden;
-}
-
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
@@ -80,6 +76,11 @@ body {
 .full-screen {
     width: 100%;
     height: 100vh;
+}
+
+.animation-out {
+    transition: transform .3s ease-in-out;
+    transform: scale(1);
 }
 
 /* "TAB" navigation */

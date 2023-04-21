@@ -46,3 +46,11 @@ allLinks.forEach(function (link) {
         }
     });
 });
+
+// // Projects hover animation
+// const projectsEl = document.querySelectorAll('.projects');
+// projectsEl.forEach((element) => {
+//     element.addEventListener('mouseout', () => {
+//         element.classList.add('projects-animation-out');
+//     })
+// })
