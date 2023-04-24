@@ -207,10 +207,14 @@ ul li a > span{
     color: #C86A5B;
 }
 
+/**************************/
+/* INTRODUCTION */
+/**************************/
 .section-introduction {
     width: 100%;
     height: 100vh;
     display: flex;
+    align-items: center;
 }
 
 .section-introduction_container {
@@ -238,4 +242,32 @@ ul li a > span{
 
 .introduction_container--img {
     width: 55%;
+}
+
+/**************************/
+/* FIRST STAGE*/
+/**************************/
+.section-first-stage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-first-stage_container {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/**************************/
+/* SECOND STAGE*/
+/**************************/
+.section-second-stage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
