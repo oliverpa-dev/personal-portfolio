@@ -116,7 +116,7 @@ ul li, a:visited{
 
 ul li, a:link:hover,
 ul li, a:visited:hover {
-    color: #C86A5B;
+    /* color: #C86A5B; */
     transition: color .3s ease-in-out;
 }
 
@@ -276,7 +276,6 @@ ul li a > span{
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat((2, 1fr)); */
     gap: 2.5rem;
 }
 
@@ -288,19 +287,19 @@ ul li a > span{
     box-shadow: 0px 0px 5px -1px rgba(146, 129, 127, 1);
 }
 
-.projects > span {
-    display: inline-block;
-    margin-bottom: 2rem;
+.first-project:link,
+.first-project:visited {
+    color: #1E1E1E;
 }
 
-.projects > h1 {
-    margin-bottom: 0.8rem;
-    font-size: 1.8rem;
+.second-project:link,
+.second-project:visited {
+    color: #1E1E1E;
 }
 
-.projects > p {
-    margin-bottom: 2rem;
-    font-size: 1.6rem;
+.third-project:link,
+.third-project:visited {
+    color: #1E1E1E;
 }
 
 .projects:hover {
