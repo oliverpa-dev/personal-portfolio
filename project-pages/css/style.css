@@ -11,6 +11,7 @@ html {
     /* 1rem = 10px */
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
     line-height: 1.6;
     background-color: #1E1E1E;
     overflow-x: hidden;
+
 }
 
 .section-home {
@@ -169,6 +171,10 @@ header {
     -webkit-backdrop-filter: blur(10px);
 }
 
+.sticky .section-introduction {
+    margin-top: 6rem;
+}
+
 nav {
     max-width: 120rem;
     margin: 0 auto;
@@ -204,4 +210,32 @@ ul li a > span{
 .section-introduction {
     width: 100%;
     height: 100vh;
+    display: flex;
+}
+
+.section-introduction_container {
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4.8rem;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.introduction_container--text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    color: #92817F;
+}
+
+.introduction_container--text h1 span {
+    font-weight: 400;
+    color: #C86A5B;
+}
+
+.introduction_container--img {
+    width: 55%;
 }
