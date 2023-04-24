@@ -200,3 +200,8 @@ ul li, a:visited:hover {
 ul li a > span{
     color: #C86A5B;
 }
+
+.section-introduction {
+    width: 100%;
+    height: 100vh;
+}
