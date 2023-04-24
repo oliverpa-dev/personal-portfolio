@@ -116,7 +116,6 @@ ul li, a:visited{
 
 ul li, a:link:hover,
 ul li, a:visited:hover {
-    /* color: #C86A5B; */
     transition: color .3s ease-in-out;
 }
 
@@ -290,16 +289,19 @@ ul li a > span{
 .first-project:link,
 .first-project:visited {
     color: #1E1E1E;
+    font-size: 1.6rem;
 }
 
 .second-project:link,
 .second-project:visited {
     color: #1E1E1E;
+    font-size: 1.6rem;
 }
 
 .third-project:link,
 .third-project:visited {
     color: #1E1E1E;
+    font-size: 1.6rem;
 }
 
 .projects:hover {
