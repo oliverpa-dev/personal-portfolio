@@ -430,6 +430,10 @@ figcaption {
     color: #C86A5B;
 }
 
+.fonts-text figure > figcaption {
+    color: #1E1E1E;
+}
+
 .fonts img {
     width: 100%;
 }
@@ -459,6 +463,10 @@ figcaption {
 
 .colors-text p > a {
     color: #C86A5B;
+}
+
+.colors-text figure > figcaption {
+    color: #1E1E1E;
 }
 
 .colors img {
