@@ -244,7 +244,7 @@ ul li a > span{
 }
 
 .introduction_container--img {
-    width: 55%;
+    width: 100%;
 }
 
 /**************************/
@@ -291,6 +291,7 @@ ul li a > span{
 .first-text_img {
     width: 100%;
     display: flex;
+    gap: 5rem;
     justify-content: space-around;
 }
 
@@ -313,6 +314,14 @@ figcaption {
 .first-text_img-1 {
     border-radius: 1em;
     box-shadow: 8px 0px 40px -34px rgba(255, 255, 255, 1);
+}
+
+.first-text_img-1 img {
+    width: 10%;
+}
+
+.first-text_img-2 img {
+    width: 10%;
 }
 
 .first-text_img-2 {
