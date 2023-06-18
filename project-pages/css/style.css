@@ -382,6 +382,10 @@ figcaption {
     gap: 2rem;
 }
 
+.third-text_container_2 {
+    width: 100%;
+}
+
 .third-text_container img {
     width: 100%;
 }
