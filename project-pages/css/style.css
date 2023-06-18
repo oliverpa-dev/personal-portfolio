@@ -439,6 +439,12 @@ figcaption {
     color: #92817F;
 }
 
+.fonts-text2 {
+    margin-top: 1.5rem;
+    
+    color: #92817F;
+}
+
 .fonts-text p > a{
     color: #C86A5B;
 }
